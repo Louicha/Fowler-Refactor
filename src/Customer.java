@@ -24,7 +24,6 @@ class Customer {
         while (enum_rentals.hasMoreElements()) {
             double result = 0;
             Rental aRental = (Rental) enum_rentals.nextElement();
-
             frequentRenterPoints += each.getFrequentRenterPoints();
                    
             //show figures for this rental
@@ -32,10 +31,19 @@ class Customer {
             totalAmount += result;
         }
         //add footer lines
-        result += "Amount owed is " + String.valueOf(totalAmount) + "\n";
-        result += "You earned " + String.valueOf(frequentRenterPoints) + " frequent renter points";
+        result += "Amount owed is " + String.valueOf(getTotalCharge()) + "\n";
+        result += "You earned " + String.valueOf(getTotalFrequentRenterPoints()) + " frequent renter points";
         return result;
     }
+    private int getTotalFrequentRenterPoints(){
+ int result = 0;
+ Enumeration rentals = _rentals.elements();
+ while (rentals.hasMoreElements()) {
+ Rental each = (Rental) rentals.nextElement();
+ result += each.getFrequentRenterPoints();
+ }
+ return result;
+ }
 
    private double amountFor(Rental aRental) {
        return aRental.getCharge();
