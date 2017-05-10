@@ -24,29 +24,9 @@ class Customer {
         while (enum_rentals.hasMoreElements()) {
             double result = 0;
             Rental aRental = (Rental) enum_rentals.nextElement();
-            
-            //determine amounts for aRental line
- switch (aRental.getMovie().getPriceCode()) {
- case Movie.REGULAR:
- result += 2;
- if (aRental.getDaysRented() > 2)
- result += (aRental.getDaysRented() - 2) * 1.5;
- break;
- case Movie.NEW_RELEASE:
- result += aRental.getDaysRented() * 3;
- break;
- case Movie.CHILDRENS:
- result += 1.5;
- if (aRental.getDaysRented() > 3)
- result += (aRental.getDaysRented() - 3) * 1.5;
- break;
- }
 
-            // add frequent renter points
-            frequentRenterPoints ++;
-            // add bonus for a two day new release rental
-            if ((aRental.getMovie().getPriceCode() == Movie.NEW_RELEASE) && aRental.getDaysRented() > 1) 
-                frequentRenterPoints ++;
+            frequentRenterPoints += each.getFrequentRenterPoints();
+                   
             //show figures for this rental
             result += "\t" + aRental.getMovie().getTitle()+ "\t" + "\t" + aRental.getDaysRented() + "\t" + String.valueOf result) + "\n";
             totalAmount += result;
