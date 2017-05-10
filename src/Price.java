@@ -19,6 +19,10 @@
  }
  return result;
  }
+int getFrequentRenterPoints(int daysRented){
+ return 1;
+ }
+
 
  }
  class ChildrensPrice extends Price {
@@ -30,10 +34,11 @@
  }
 
  }
- class NewReleasePrice extends Price {
- int getPriceCode() {
- return Movie.NEW_RELEASE;
-}
+ Class NewReleasePrice
+ int getFrequentRenterPoints(int daysRented) {
+ return (daysRented > 1) ? 2: 1;
+ }
+
 abstract double getCharge(int daysRented){
  return daysRented * 3;
  }

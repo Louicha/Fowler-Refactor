@@ -15,7 +15,10 @@ class Rental {
       return_movie.getCharge(_daysRented);
   }
 
-   int getFrequentRenterPoints() {
- return _movie.getFrequentRenterPoints(_daysRented);
- }
+ /*  int getFrequentRenterPoints(int daysRented) {
+if ((getPriceCode() == Movie.NEW_RELEASE) && daysRented > 1)
+ return 2;
+ else
+ return 1;
+ }*/
 }
