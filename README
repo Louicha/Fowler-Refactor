@@ -21,7 +21,7 @@ msgstr ""
 
 #: 
 msgid "Bug"
-msgstr ""
+msgstr "Fehler"
 
 #: 
 msgid "Build"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: 
 msgid "Copy-Modify-Write"
-msgstr ""
+msgstr "Kopieren-Modifizieren-Schreiben"
 
 #: 
 msgid "Deployment"
@@ -105,7 +105,7 @@ msgstr "Seitensammlung"
 
 #: 
 msgid "Site Directory "
-msgstr ""
+msgstr "Seitenverzeichnis"
 
 #: 
 msgid "Snapshot"
@@ -113,7 +113,7 @@ msgstr ""
 
 #: 
 msgid "Subsite"
-msgstr ""
+msgstr "Unterseite"
 
 #: 
 msgid "Term Set"
