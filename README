@@ -1,1 +1,133 @@
-This file was created by IntelliJ IDEA 12.1.6 for binding GitHub repository
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Testing\n"
+"Language: de\n"
+
+#: 
+msgid "Tenant"
+msgstr ""
+
+#: 
+msgid "Agent"
+msgstr ""
+
+#: 
+msgid "Branch"
+msgstr ""
+
+#: 
+msgid "Bug"
+msgstr ""
+
+#: 
+msgid "Build"
+msgstr ""
+
+#: 
+msgid "Commit"
+msgstr ""
+
+#: 
+msgid "Content Management System"
+msgstr "Dateiverwaltungssystem"
+
+#: 
+msgid "Content Type"
+msgstr "Dateityp"
+
+#: 
+msgid "Continuous Deployment"
+msgstr ""
+
+#: 
+msgid "Continuous Integration"
+msgstr ""
+
+#: 
+msgid "Copy-Modify-Write"
+msgstr ""
+
+#: 
+msgid "Deployment"
+msgstr ""
+
+#: 
+msgid "Lock-Modify-Write"
+msgstr "Verschließen-Modifizieren-Schreiben"
+
+#: 
+msgid "Managed-Metadata"
+msgstr ""
+
+#: 
+msgid "Merge"
+msgstr "Zusammenführen"
+
+#: 
+msgid "Patch"
+msgstr ""
+
+#: 
+msgid "Pull"
+msgstr "Ziehen"
+
+#: 
+msgid "Push"
+msgstr "Drücken"
+
+#: 
+msgid "Release"
+msgstr ""
+
+#: 
+msgid "Remote"
+msgstr "von Fern"
+
+#: 
+msgid "Repository"
+msgstr ""
+
+#: 
+msgid "Revision"
+msgstr ""
+
+#: 
+msgid "Site"
+msgstr "Seite"
+
+#: 
+msgid "Site Collection"
+msgstr "Seitensammlung"
+
+#: 
+msgid "Site Directory "
+msgstr ""
+
+#: 
+msgid "Snapshot"
+msgstr ""
+
+#: 
+msgid "Subsite"
+msgstr ""
+
+#: 
+msgid "Term Set"
+msgstr ""
+
+#: 
+msgid "Term Store"
+msgstr ""
+
+#: 
+msgid "Top-level Website "
+msgstr ""
+
+#: 
+msgid "Workflow"
+msgstr ""
+
